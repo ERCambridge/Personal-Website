@@ -1,0 +1,69 @@
+#navList{
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;           /* Remove default padding */
+    margin: 0;            /* Remove default margin */
+    display: flex;        /* Use flexbox for horizontal layout */
+    justify-content: center;
+}
+
+#pageLink {
+    margin-right: 10px;   /* Space between links */
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#headerLink {
+    color: rgb(79, 8, 243);         
+    text-decoration: none; 
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#footerLink{
+    text-decoration: none;
+}
+
+#footerLink:hover{
+    color: rgb(4, 4, 49);
+}
+
+#headerLink:hover {
+    background-color: #ff9100;
+}
+h1{
+    padding-top: 15px;
+}
+
+header{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(to bottom, orange, rgb(253, 80, 0));
+    border-radius: 10px;
+}
+
+body{
+    background-image: linear-gradient(rgb(95, 94, 94), rgb(231, 230, 230));
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+#title{
+    font-size: 30px;
+    color: rgb(1, 1, 73);
+    font-weight: bold;
+    text-align: center;
+}
+#description{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#descImage{
+    text-align: center;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
